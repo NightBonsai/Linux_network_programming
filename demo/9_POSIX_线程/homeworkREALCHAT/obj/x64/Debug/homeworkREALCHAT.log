@@ -1,0 +1,25 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main_server.cpp
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,51): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,51): warning :    int res = read(acceptfd, &resBuf, sizeof(resBuf));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,51): warning :                                                    ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,7): warning : unused variable ‘res’ [-Wunused-variable]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,7): warning :    int res = read(acceptfd, &resBuf, sizeof(resBuf));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(91,7): warning :        ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,67): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,67): warning :    int res = write(resBuf.recv, &(resBuf.data), sizeof(resBuf.data));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,67): warning :                                                                    ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,7): warning : unused variable ‘res’ [-Wunused-variable]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,7): warning :    int res = write(resBuf.recv, &(resBuf.data), sizeof(resBuf.data));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(103,7): warning :        ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(99,6): warning : unused variable ‘socketfd’ [-Wunused-variable]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(99,6): warning :   int socketfd = *((int*)arg);
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\main_server.cpp(99,6): warning :       ^
+  正在链接对象
+  homeworkREALCHAT.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT\bin\x64\Debug\homeworkREALCHAT.out

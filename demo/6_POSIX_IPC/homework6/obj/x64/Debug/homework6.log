@@ -1,0 +1,13 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main_splite.cpp
+D:\Microsoft Visual Studio\MyProjects\homework6\main_splite.cpp(69,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework6\main_splite.cpp(69,19): warning :    while (0 < (res = read(rfd, buf, sizeof(buf))))
+D:\Microsoft Visual Studio\MyProjects\homework6\main_splite.cpp(69,19): warning :                    ^
+  正在链接对象
+  homework6.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework6\bin\x64\Debug\homework6.out

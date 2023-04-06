@@ -1,0 +1,39 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  mainB.cpp
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(95,47): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(95,47): warning :    memcpy(&arr[index], shmAddr + sizeof(int) * index, sizeof(int));    //读索引区：首地址 + 一个索引*下标
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(95,47): warning :                                                ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,38): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,38): warning :      memcpy(&stu, shmAddr + sizeof(arr) + sizeof(STU) * index, sizeof(STU)); //读数据区：首地址 + 整个索引区长度 + 数据块*下标
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,38): warning :                                       ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,56): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,56): warning :      memcpy(&stu, shmAddr + sizeof(arr) + sizeof(STU) * index, sizeof(STU)); //读数据区：首地址 + 整个索引区长度 + 数据块*下标
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(101,56): warning :                                                         ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,32): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,32): warning :      memset(shmAddr + sizeof(arr) + sizeof(STU) * index, 0, sizeof(STU)); //清空读出的数据区数据
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,32): warning :                                 ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,50): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,50): warning :      memset(shmAddr + sizeof(arr) + sizeof(STU) * index, 0, sizeof(STU)); //清空读出的数据区数据
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(105,50): warning :                                                   ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(106,36): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(106,36): warning :      memset(shmAddr + sizeof(int) * index, 0, sizeof(int));     //修改索引区为空闲—0
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(106,36): warning :                                     ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(52,6): warning : unused variable ‘num’ [-Wunused-variable]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(52,6): warning :   int num = 0, index = 0;
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(52,6): warning :       ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(138,45): warning : narrowing conversion of ‘semIndex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(138,45): warning :   struct sembuf buf = { semIndex,-1,SEM_UNDO };
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(138,45): warning :                                              ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(138,45): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(149,44): warning : narrowing conversion of ‘semIndex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(149,44): warning :   struct sembuf buf = { semIndex,1,SEM_UNDO };
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(149,44): warning :                                             ^
+D:\Microsoft Visual Studio\MyProjects\homework14_rcv\mainB.cpp(149,44): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+  正在链接对象
+  homework14_rcv.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework14_rcv\bin\x64\Debug\homework14_rcv.out

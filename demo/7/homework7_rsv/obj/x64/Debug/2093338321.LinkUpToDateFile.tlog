@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homework7_rsv/bin/x64/Debug/homework7_rsv.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/homework7_rsv/obj/x64/Debug/main_rsv.o

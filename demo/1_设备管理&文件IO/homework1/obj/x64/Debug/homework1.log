@@ -1,0 +1,15 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(28,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(28,19): warning :    while (0 < (res = read(rfd, buf, sizeof(buf))))
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(28,19): warning :                    ^
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(31,9): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(31,9): warning :     wres = write(wfd, buf, res);
+D:\Microsoft Visual Studio\MyProjects\homework1\main.cpp(31,9): warning :          ^
+  正在链接对象
+  homework1.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework1\bin\x64\Debug\homework1.out

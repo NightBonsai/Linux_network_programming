@@ -1,0 +1,18 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(34,44): warning : passing NULL to non-pointer argument 3 of ‘__pid_t waitpid(__pid_t, int*, int)’ [-Wconversion-null]
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(34,44): warning :    pid_t waitID = waitpid(pid, &status, NULL);
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(34,44): warning :                                             ^
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(80,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(80,19): warning :    while (0 < (res = read(rfd, buf, sizeof(buf))))
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(80,19): warning :                    ^
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(54,6): warning : unused variable ‘status’ [-Wunused-variable]
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(54,6): warning :   int status = 0, count = 0, res = 0;
+D:\Microsoft Visual Studio\MyProjects\homework4\main.cpp(54,6): warning :       ^
+  正在链接对象
+  homework4.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework4\bin\x64\Debug\homework4.out

@@ -1,0 +1,25 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main_client.cpp
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(72,40): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(72,40): warning :    int rres = read(fd, buf, sizeof(HEAD));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(72,40): warning :                                         ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(84,9): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(84,9): warning :     rres = read(fd, buf, sizeof(BACKMSG));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(84,9): warning :          ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(98,9): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(98,9): warning :     rres = read(fd, buf, sizeof(CHATMSG));
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(98,9): warning :          ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(148,57): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(148,57): warning :     int wres = write(fd, buf, sizeof(HEAD) + sizeof(USER)); //发送有效长度的数据给服务器端
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(148,57): warning :                                                          ^
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(173,60): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(173,60): warning :     int wres = write(fd, buf, sizeof(HEAD) + sizeof(CHATMSG)); //发送有效长度的数据给服务器端
+D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\main_client.cpp(173,60): warning :                                                             ^
+  正在链接对象
+  homeworkREALCHAT_client.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homeworkREALCHAT_client\bin\x64\Debug\homeworkREALCHAT_client.out

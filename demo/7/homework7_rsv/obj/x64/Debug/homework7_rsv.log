@@ -1,0 +1,13 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main_rsv.cpp
+D:\Microsoft Visual Studio\MyProjects\homework7_rsv\main_rsv.cpp(39,62): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework7_rsv\main_rsv.cpp(39,62): warning :    int msgResult = msgrcv(msgID, &resBuf, sizeof(MSGBUF), 1, 0);
+D:\Microsoft Visual Studio\MyProjects\homework7_rsv\main_rsv.cpp(39,62): warning :                                                               ^
+  正在链接对象
+  homework7_rsv.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework7_rsv\bin\x64\Debug\homework7_rsv.out

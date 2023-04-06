@@ -1,0 +1,13 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main_client.cpp
+D:\Microsoft Visual Studio\MyProjects\homework8_client\main_client.cpp(42,47): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework8_client\main_client.cpp(42,47): warning :      int res = write(socketfd, buf, sizeof(buf));
+D:\Microsoft Visual Studio\MyProjects\homework8_client\main_client.cpp(42,47): warning :                                                ^
+  正在链接对象
+  homework8_client.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework8_client\bin\x64\Debug\homework8_client.out

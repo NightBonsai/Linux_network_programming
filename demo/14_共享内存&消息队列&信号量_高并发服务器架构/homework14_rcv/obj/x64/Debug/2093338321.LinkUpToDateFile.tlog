@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homework14_rcv/bin/x64/Debug/homework14_rcv.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/homework14_rcv/obj/x64/Debug/mainB.o

@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homework4/bin/x64/Debug/homework4.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/homework4/obj/x64/Debug/main.o

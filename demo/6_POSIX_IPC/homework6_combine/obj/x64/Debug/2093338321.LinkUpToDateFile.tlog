@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homework6_combine/bin/x64/Debug/homework6_combine.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/homework6_combine/obj/x64/Debug/main_combine.o

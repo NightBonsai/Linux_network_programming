@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homeworkCHAT_B/bin/x64/Debug/homeworkCHAT_B.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/homeworkCHAT_B/obj/x64/Debug/mainB.o

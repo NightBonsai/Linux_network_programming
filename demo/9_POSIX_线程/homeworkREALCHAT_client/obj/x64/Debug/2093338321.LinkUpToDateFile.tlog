@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homeworkREALCHAT_client/bin/x64/Debug/homeworkREALCHAT_client.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread /root/projects/homeworkREALCHAT_client/obj/x64/Debug/main_client.o

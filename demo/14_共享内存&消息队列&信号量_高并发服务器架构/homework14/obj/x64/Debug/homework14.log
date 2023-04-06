@@ -1,0 +1,27 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  mainA.cpp
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,31): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,31): warning :     memcpy(shmAddr + sizeof(arr) + sizeof(STU) * index, &stu, sizeof(STU));  //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,31): warning :                                ^
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,49): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,49): warning :     memcpy(shmAddr + sizeof(arr) + sizeof(STU) * index, &stu, sizeof(STU));  //操作数据区：首地址 + 索引区总长度 + 数据区*下标
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(114,49): warning :                                                  ^
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(116,35): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(116,35): warning :     memcpy(shmAddr + sizeof(int) * index, &arr[index], sizeof(int));   //操作索引区：首地址 + 一个索引大小*下标
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(116,35): warning :                                    ^
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(170,45): warning : narrowing conversion of ‘semIndex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(170,45): warning :   struct sembuf buf = { semIndex,-1,SEM_UNDO };
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(170,45): warning :                                              ^
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(170,45): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(181,44): warning : narrowing conversion of ‘semIndex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(181,44): warning :   struct sembuf buf = { semIndex,1,SEM_UNDO };
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(181,44): warning :                                             ^
+D:\Microsoft Visual Studio\MyProjects\homework14\mainA.cpp(181,44): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+  正在链接对象
+  homework14.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework14\bin\x64\Debug\homework14.out

@@ -1,0 +1,16 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  mainB.cpp
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(41,42): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(41,42): warning :     int wres = write(wfd, buf, sizeof(buf));
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(41,42): warning :                                           ^
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(53,49): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(53,49): warning :     int rres = read(rfd, readBuf, sizeof(readBuf));
+D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\mainB.cpp(53,49): warning :                                                  ^
+  正在链接对象
+  homeworkCHAT_B.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homeworkCHAT_B\bin\x64\Debug\homeworkCHAT_B.out

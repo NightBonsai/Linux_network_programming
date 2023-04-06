@@ -1,0 +1,1 @@
+g++ -o "/root/projects/homework13/bin/x64/Debug/homework13.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -pthread /root/projects/homework13/obj/x64/Debug/BaseTask.o /root/projects/homework13/obj/x64/Debug/ChildTask.o /root/projects/homework13/obj/x64/Debug/main.o /root/projects/homework13/obj/x64/Debug/ThreadPool.o

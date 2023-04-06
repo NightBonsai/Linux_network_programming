@@ -1,0 +1,18 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.9.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(55,20): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(55,20): warning :     while (0 < (res = read(rfd, buf, sizeof(buf))))
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(55,20): warning :                     ^
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(95,44): warning : passing NULL to non-pointer argument 3 of ‘__pid_t waitpid(__pid_t, int*, int)’ [-Wconversion-null]
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(95,44): warning :    pid_t waitID = waitpid(pid, &status, NULL);
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(95,44): warning :                                             ^
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(129,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(129,21): warning :      while (0 < (res = read(rfd, buf, sizeof(buf))))
+D:\Microsoft Visual Studio\MyProjects\homework3\main.cpp(129,21): warning :                      ^
+  正在链接对象
+  homework3.vcxproj -> D:\Microsoft Visual Studio\MyProjects\homework3\bin\x64\Debug\homework3.out
